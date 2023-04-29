@@ -16,7 +16,7 @@ body {
   background-color: #ffffff;
 }
 
-.logo-web-studio {
+.link {
   font-family: 'Raleway' sans-serif;
   text-decoration: none;
   text-transform: uppercase;
@@ -24,7 +24,7 @@ body {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   color: #4d5ae5;
 }
 
@@ -126,4 +126,20 @@ li {
 }
 
 .our-team-name {
+  width: 134px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.our-team-direction {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
