@@ -17,6 +17,14 @@ sans-serif; */
   --nav-bar: #2e2f42;
   --address: #434455;
   --background-hero: #2e2f42;
+  --about-us-title: #2e2f42;
+  --about-us-direction: #434455;
+  --What-are-we-doing: #2e2f42;
+  --our-team-title: #2e2f42;
+  --our-team-name: #2e2f42;
+  --our-team-direction: #434455;
+  --footer-backgraund: #2e2f42;
+  --logo-footer-web: #4d5ae5;
 }
 
 body {
@@ -110,6 +118,11 @@ body {
   background-color: #404bbf;
 }
 
+/* Друга секція */
+
+.about-us {
+}
+
 .about-us-title {
   width: 264px;
   height: 24px;
@@ -117,7 +130,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--about-us-title);
 }
 
 .about-us-direction {
@@ -127,8 +140,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--about-us-direction);
 }
 
+/* Третя секція */
 .What-are-we-doing {
   font-weight: 700;
   font-size: 36px;
@@ -136,9 +151,9 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--What-are-we-doing);
 }
-
+/* Четверта секція */
 .our-team-section {
   background: #f4f4fd;
 }
@@ -150,7 +165,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--our-team-title);
 }
 
 .our-team-card {
@@ -174,7 +189,7 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--our-team-name);
 }
 
 .our-team-direction {
@@ -183,10 +198,11 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
+  color: var(--our-team-direction);
 }
-
+/* Підвал */
 .footer {
-  background: #2e2f42;
+  background: var(--footer-backgraund);
 }
 
 .logo-footer {
@@ -198,7 +214,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--logo-footer-web);
 }
 
 .logo-footer-studio {
