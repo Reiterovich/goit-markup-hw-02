@@ -25,6 +25,10 @@ sans-serif; */
   --our-team-direction: #434455;
   --footer-backgraund: #2e2f42;
   --logo-footer-web: #4d5ae5;
+  --button-filter-color: #4d5ae5;
+  --button-filter-backgraund: #f4f4fd;
+  --title-card: #2e2f42;
+  --direction-card: #434455;
 }
 
 body {
@@ -144,7 +148,7 @@ body {
 }
 
 /* Третя секція */
-.What-are-we-doing {
+.what-are-we-doing {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -152,6 +156,8 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--What-are-we-doing);
+}
+.what-are-we-doing-section {
 }
 /* Четверта секція */
 .our-team-section {
@@ -227,4 +233,39 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+/* Класи портфоліо */
+
+.button-filter {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--button-filter-color);
+  background: var(--button-filter-backgraund);
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  background: #404bbf;
+  color: #ffffff;
+}
+
+.title-card {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-card);
+}
+
+.direction-card {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--direction-card);
 }
