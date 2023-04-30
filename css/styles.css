@@ -10,10 +10,19 @@ sans-serif; */
 
 } */
 
+:root {
+  --background: #ffffff;
+  --logo: #4d5ae5;
+  --logo-studio: #2e2f42;
+  --nav-bar: #2e2f42;
+  --address: #434455;
+  --background-hero: #2e2f42;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  background-color: #ffffff;
+  background-color: var(--background);
 }
 
 .logo-studio-web {
@@ -24,11 +33,11 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: #4d5ae5;
+  color: var(--logo);
 }
 
 .logo-studio {
-  color: #2e2f42;
+  color: var(--logo-studio);
 }
 
 .link {
@@ -40,22 +49,33 @@ body {
 }
 
 .nav-bar-item {
-  text-decoration: none;
   font-weight: 500;
   letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e2f42;
+  color: var(--nav-bar);
+}
+.nav-bar-item:hover,
+.nav-bar-item:focus {
+  color: #404bbf;
 }
 
 .address-header {
-  text-decoration: none;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--address);
+}
+
+.address-header:hover,
+.address-header:focus {
+  color: #404bbf;
+}
+
+.hero-back {
+  background: var(--background-hero);
 }
 
 .hero-title {
@@ -65,10 +85,10 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  background: #2e2f42;
 }
 
 .button-hero {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -82,10 +102,12 @@ body {
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 
-.about-us {
-  /* Невидимий текс */
+.button-hero:hover,
+.button-hero:focus {
+  background-color: #404bbf;
 }
 
 .about-us-title {
