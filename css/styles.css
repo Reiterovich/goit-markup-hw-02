@@ -38,7 +38,7 @@ body {
 }
 
 .logo-studio-web {
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -71,9 +71,10 @@ body {
 .nav-bar-item:focus {
   color: #404bbf;
 }
-
 .address-header {
   font-style: normal;
+}
+.address-header-item {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
